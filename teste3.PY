@@ -1,6 +1,5 @@
 
-
-const faturamentoMensal = [
+faturamentoMensal = [
 	{
 		"dia": 1,
 		"valor": 22174.1664
@@ -123,23 +122,38 @@ const faturamentoMensal = [
 	}
 ]
 
-// const menorValor = Math.min(faturamentoMensal.map (({
-//     valor
-// })=> valor ))
-// console.log(`O menor é ${menorValor} no dia ${faturamentoMensal.dia}`)
-// console.log(menorValor)
+# menorValor = 0
+# valorF = 'valor'
+# 
+# faturamentoMensal[min(faturamentoMensal, key=faturamentoMensal.get)]
 
-const valor = faturamentoMensal.map(({valor}) => valor)
-const menorValor = Math.min(valor)
-// console.log(menorValor)
+# menorValor = faturamentoMensal
 
-const min = faturamentoMensal.reduce((a,b)=>{
-    if(b.valor < a.valor) a = b;
-    return a;
- });
- console.log(menorValor)
+# print(faturamentoMensal)
+lista = []
+# dict = []
+v = 0
+i = 0
 
-// console.log(menorValor, valor)
+
+for i in faturamentoMensal:
+    
+	lista.append(i['valor'])
+	print(lista)
+print(min(lista))
+print(max(lista))
+
+
+
+
+
+
+# print(lista)
+
+
+
+
+
 
 
 
